@@ -11,3 +11,8 @@ fullname = firstname + ' ' + lastname
 print(fullname)
 # checking the type of value fullname is
 print(type(fullname))
+
+def sayMyName():
+    print ("My name is " + fullname + ".")
+
+sayMyName()
